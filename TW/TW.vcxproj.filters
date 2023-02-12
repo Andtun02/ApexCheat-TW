@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="网络验证">
+      <UniqueIdentifier>{6d29bea8-7fc1-4ee5-8bb9-30b35785b01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="网络验证\Help头文件">
+      <UniqueIdentifier>{ff8bee3e-ea83-493c-93ca-50798e62b2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="网络验证\Help源文件">
+      <UniqueIdentifier>{5fa4a747-4e7d-440a-a9c8-5b4d7861648b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="网络验证\Model">
+      <UniqueIdentifier>{8da547c8-57a7-45e5-91ff-0dcf3c65bda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内存读写">
+      <UniqueIdentifier>{4a205533-0a80-4d4b-8ccc-670681f911ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="驱动加载">
+      <UniqueIdentifier>{f5a1bf15-508f-412d-9a49-9009fac39cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="驱动加载\kdmapper">
+      <UniqueIdentifier>{3386a8c3-9e6a-491b-a22f-30b1d92954ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TW.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVerHelp\Help头文件\cJSON.c">
+      <Filter>网络验证\Help头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVerHelp\Help源文件\HttpRequestTool.cpp">
+      <Filter>网络验证\Help源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVerHelp\Help源文件\Md5.cpp">
+      <Filter>网络验证\Help源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVerHelp\Help源文件\NetworkVerHelp.cpp">
+      <Filter>网络验证\Help源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVerHelp\Help源文件\OtherHelpTools.cpp">
+      <Filter>网络验证\Help源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVerHelp\Help源文件\Rc4.cpp">
+      <Filter>网络验证\Help源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVerHelp\Help源文件\CJsonObject.cpp">
+      <Filter>网络验证\Help源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>内存读写</Filter>
+    </ClCompile>
+    <ClCompile Include="Kdmapper\portable_executable.cpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Kdmapper\service.cpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Kdmapper\utils.cpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Kdmapper\intel_driver.cpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Kdmapper\kdmapper.cpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="MemProtect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Kdm.cpp">
+      <Filter>驱动加载</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetVerHelp\Help头文件\HttpRequestTool.h">
+      <Filter>网络验证\Help头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Help头文件\Md5.h">
+      <Filter>网络验证\Help头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Help头文件\NetworkVerHelp.h">
+      <Filter>网络验证\Help头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Help头文件\OtherHelpTools.h">
+      <Filter>网络验证\Help头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Help头文件\Rc4.h">
+      <Filter>网络验证\Help头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Help头文件\cJSON.h">
+      <Filter>网络验证\Help头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Help头文件\CJsonObject.hpp">
+      <Filter>网络验证\Help头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\ApiRequestArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\BusinessCompleteType.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\BusinessType.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\DisableCardOrAccountType.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\EncryptType.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_accountDetailArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_AccountLoginArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_AccountRegisterArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_BucklePointArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_BuyCardNumArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_BuyGoodsArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_cardDetailArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_CardLoginArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_CreateCardArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_DataBaseArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_DisableCardOrAccountArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_getGoodsPriceArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_getRemoteVarArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_getSoftPriceListArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_HeartBeatArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_IniSoftInfoArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_LoginOutArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_OpenRenewAccountArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_OpenRenewCardNumArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_rechCardDetailArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_RechCardRenewCardOrAccountArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_SearchOrderArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_unbundMacArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_UpdOrderFlagArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_UpdPwdArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\In_updRemarkArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\IsPay.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\OpenState.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\OrderState.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_accountDetail.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_bucklePoint.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_BuyCardNum.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_BuyGoods.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_cardDetail.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_CreateCard.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_DataBaseArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_getRemoteVar.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_goodsInfo.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_GoodsPrice.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_heartBeat.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_iniGoodsInfo.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_iniSoftInfo.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_Login.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_LoginJurisdiction.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_OpenRenewAccount.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_OpenRenewCardNum.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_rechCardNumDetail.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_SearchOrder.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_softInfo.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_softPrice.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_SoftPriceList.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_unbundMacArgs.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Out_Var.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\PayType.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\PlatformType.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\Result.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVerHelp\Model\ActiveState.h">
+      <Filter>网络验证\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPass.h">
+      <Filter>网络验证</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemProtect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Configs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>内存读写</Filter>
+    </ClInclude>
+    <ClInclude Include="Kdmapper\kdmapper.hpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Kdmapper\nt.hpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Kdmapper\portable_executable.hpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Kdmapper\service.hpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Kdmapper\utils.hpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Kdmapper\intel_driver.hpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Kdmapper\intel_driver_resource.hpp">
+      <Filter>驱动加载\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="9rZR9g1uwJA8.h">
+      <Filter>驱动加载</Filter>
+    </ClInclude>
+    <ClInclude Include="FhsVcrSZzkkTi1n.h">
+      <Filter>驱动加载</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TW.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="logo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

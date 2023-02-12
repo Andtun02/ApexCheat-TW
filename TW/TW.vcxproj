@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fa244776-65b8-40dd-a311-8e1ab96bdda5}</ProjectGuid>
+    <RootNamespace>TW</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="Kdm.cpp" />
+    <ClCompile Include="Kdmapper\intel_driver.cpp" />
+    <ClCompile Include="Kdmapper\kdmapper.cpp" />
+    <ClCompile Include="Kdmapper\portable_executable.cpp" />
+    <ClCompile Include="Kdmapper\service.cpp" />
+    <ClCompile Include="Kdmapper\utils.cpp" />
+    <ClCompile Include="MemProtect.cpp" />
+    <ClCompile Include="NetVerHelp\Help头文件\cJSON.c" />
+    <ClCompile Include="NetVerHelp\Help源文件\CJsonObject.cpp" />
+    <ClCompile Include="NetVerHelp\Help源文件\HttpRequestTool.cpp" />
+    <ClCompile Include="NetVerHelp\Help源文件\Md5.cpp" />
+    <ClCompile Include="NetVerHelp\Help源文件\NetworkVerHelp.cpp" />
+    <ClCompile Include="NetVerHelp\Help源文件\OtherHelpTools.cpp" />
+    <ClCompile Include="NetVerHelp\Help源文件\Rc4.cpp" />
+    <ClCompile Include="TW.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Configs.h" />
+    <ClInclude Include="crypt.h" />
+    <ClInclude Include="FhsVcrSZzkkTi1n.h" />
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="9rZR9g1uwJA8.h" />
+    <ClInclude Include="Kdmapper\intel_driver.hpp" />
+    <ClInclude Include="Kdmapper\intel_driver_resource.hpp" />
+    <ClInclude Include="Kdmapper\kdmapper.hpp" />
+    <ClInclude Include="Kdmapper\nt.hpp" />
+    <ClInclude Include="Kdmapper\portable_executable.hpp" />
+    <ClInclude Include="Kdmapper\service.hpp" />
+    <ClInclude Include="Kdmapper\utils.hpp" />
+    <ClInclude Include="MemProtect.h" />
+    <ClInclude Include="NetVerHelp\Help头文件\cJSON.h" />
+    <ClInclude Include="NetVerHelp\Help头文件\CJsonObject.hpp" />
+    <ClInclude Include="NetVerHelp\Help头文件\HttpRequestTool.h" />
+    <ClInclude Include="NetVerHelp\Help头文件\Md5.h" />
+    <ClInclude Include="NetVerHelp\Help头文件\NetworkVerHelp.h" />
+    <ClInclude Include="NetVerHelp\Help头文件\OtherHelpTools.h" />
+    <ClInclude Include="NetVerHelp\Help头文件\Rc4.h" />
+    <ClInclude Include="NetVerHelp\Model\ActiveState.h" />
+    <ClInclude Include="NetVerHelp\Model\ApiRequestArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\BusinessCompleteType.h" />
+    <ClInclude Include="NetVerHelp\Model\BusinessType.h" />
+    <ClInclude Include="NetVerHelp\Model\DisableCardOrAccountType.h" />
+    <ClInclude Include="NetVerHelp\Model\EncryptType.h" />
+    <ClInclude Include="NetVerHelp\Model\In_accountDetailArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_AccountLoginArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_AccountRegisterArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_BucklePointArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_BuyCardNumArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_BuyGoodsArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_cardDetailArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_CardLoginArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_CreateCardArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_DataBaseArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_DisableCardOrAccountArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_getGoodsPriceArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_getRemoteVarArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_getSoftPriceListArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_HeartBeatArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_IniSoftInfoArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_LoginOutArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_OpenRenewAccountArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_OpenRenewCardNumArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_rechCardDetailArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_RechCardRenewCardOrAccountArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_SearchOrderArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_unbundMacArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_UpdOrderFlagArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_UpdPwdArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\In_updRemarkArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\IsPay.h" />
+    <ClInclude Include="NetVerHelp\Model\OpenState.h" />
+    <ClInclude Include="NetVerHelp\Model\OrderState.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_accountDetail.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_bucklePoint.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_BuyCardNum.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_BuyGoods.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_cardDetail.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_CreateCard.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_DataBaseArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_getRemoteVar.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_goodsInfo.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_GoodsPrice.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_heartBeat.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_iniGoodsInfo.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_iniSoftInfo.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_Login.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_LoginJurisdiction.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_OpenRenewAccount.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_OpenRenewCardNum.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_rechCardNumDetail.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_SearchOrder.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_softInfo.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_softPrice.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_SoftPriceList.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_unbundMacArgs.h" />
+    <ClInclude Include="NetVerHelp\Model\Out_Var.h" />
+    <ClInclude Include="NetVerHelp\Model\PayType.h" />
+    <ClInclude Include="NetVerHelp\Model\PlatformType.h" />
+    <ClInclude Include="NetVerHelp\Model\Result.h" />
+    <ClInclude Include="NetworkPass.h" />
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TW.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="logo.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
